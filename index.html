@@ -324,6 +324,9 @@
     position: relative;
     overflow: hidden;
   }
+  .project-visual.portrait {
+  height: 380px; /* or use aspect-ratio: 9/16; and drop the fixed height */
+}
 
   .visual-placeholder {
     text-align: center;
@@ -626,7 +629,7 @@
         <span class="stack-item">PID Control</span>
       </div>
 
-      <div class="project-visual">
+      <div class="project-visual portrait">
         <video controls muted loop playsinline poster="assets/images/wall-following.jpg">
           <source src="assets/videos/wall followw.mp4" type="video/mp4">
           Your browser does not support the video tag.
